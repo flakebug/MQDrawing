@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./resource/scripts/jquerymobile/jquery.mobile-1.4.5.min.css"/>
+    <script src="./resource/scripts/jquery/jquery-1.11.1.min.js"></script>
+    <script src="./resource/scripts/jquerymobile/jquery.mobile-1.4.5.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="./resource/icon/icon.jpg">
+    <link rel="apple-touch-startup-image" href="./resource/icon/icon.jpg">
+    <meta name="apple-mobile-web-app-title" content="iDocs+">
+    <link rel="shortcut icon" href="./resource/icon/icon.jpg">
+    <title>iDocs+</title>
+</head>
+<body>
+    <div data-role="page" id="list">
+        <div data-role="header">
+			<a href="#" data-rel="back" data-role="button" data-icon="back">Back</a>
+            <h1>{0}</h1>
+			<a href="#about" data-role="button" data-icon="info">About</a>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" id="prof-list" data-inset="false" data-filter="true" data-filter-reveal="false" data-filter-placeholder="Search ...">
+				{1}
+            </ul>
+        </div>
+        <div data-role="footer">
+            <h1>Liang, CTCI Construction</h1>
+        </div>        
+    </div>
+    <div data-role="page" id="about">
+        <div data-role="header">
+            <a href="#" data-rel="back" data-role="button" data-icon="back">Back</a>
+            <h3>About</h3>
+        </div>
+        <div data-role="content">
+			<div>
+				<img src="./resource/icon/ctci.jpg">
+			</div>
+			<div>
+				<p>Author : Liang</p>
+				<p>Date : 2018/Jan/10</p>
+				<p>Description : Document List</p>
+			</div>
+		</div>
+        <div data-role="footer">
+            <h1>Liang, CTCI Construction</h1>
+        </div>        
+    </div>
+
+
+</body>
+</html>
+
